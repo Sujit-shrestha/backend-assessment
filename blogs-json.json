@@ -1,0 +1,106 @@
+{
+  "blogs": [
+    {
+      "title": "Exploring React Hooks",
+      "description": "Delve into the world of React Hooks and how they revolutionize state management.",
+      "category": "Technology",
+      "Id": 133
+    },
+    {
+      "Id": 134,
+      "title": "Mastering JavaScript Promises",
+      "description": "Exploring the intricacies of JavaScript promises and asynchronous programming.",
+      "category": "Technology Blogs"
+    },
+    {
+      "title": "Life as a React Developer",
+      "description": "A blog on day to day life of a react developer.",
+      "category": "Personal Blogs",
+      "Id": 136
+    },
+    {
+      "Id": 137,
+      "title": "Discovering Hidden Gems: Traveling Off the Beaten Path",
+      "description": "Uncovering unique travel destinations that are often overlooked by tourists.",
+      "category": "Travel Blogs"
+    },
+    {
+      "Id": 138,
+      "title": "The Art of Cooking: Culinary Adventures in the Kitchen",
+      "description": "Delving into the world of cooking, experimenting with new recipes, and sharing culinary experiences.",
+      "category": "Food Blogs"
+    },
+    {
+      "title": "Introduction to WebRTC",
+      "description": "This blog introduces WebRTC (Web Real-Time Communication), a free, open-source project that provides web browsers and mobile applications with real-time communication via simple application programming interfaces (APIs).",
+      "category": "Technology",
+      "Id": 139
+    },
+    {
+      "title": "WebRTC Security",
+      "description": "Explore the security aspects of WebRTC, including encryption protocols and best practices to ensure secure real-time communication over the web.",
+      "category": "Cybersecurity",
+      "Id": 140
+    },
+    {
+      "title": "Life as a React Developer",
+      "description": "A blog on day to day life of a react developer.",
+      "category": "Personal BlogsSS",
+      "Id": 141
+    },
+    {
+      "title": "WebRTC and its Applications",
+      "description": "Discover various applications of WebRTC, from video conferencing and online gaming to file sharing. Explore how WebRTC is transforming real-time communication on the web.",
+      "category": "Technology",
+      "Id": 142
+    },
+    {
+      "title": "Computer Viruses again",
+      "description": " This blog describes about different types of computer viruses",
+      "category": "Personal Blog",
+      "Id": 143
+    },
+    {
+      "title": "WebRTC and its Applications",
+      "description": "Discover various applications of WebRTC, from video conferencing and online sharing.Explore how WebRTC is transforming real-time communication on the web.",
+      "category": "Technology",
+      "Id": 144
+    },
+    {
+      "title": "WebRTC and its Applications",
+      "description": "Discover various applications of WebRTC, from video conferencing and online sharing.Explore how WebRTC is transforming real-time communication on the web.",
+      "category": "Technology",
+      "Id": 145
+    },
+    {
+      "title": "WebRTC and its Applications",
+      "description": "Discover various applications of WebRTC, from video conferencing and online sharing.Explore how WebRTC is transforming real-time communication on the web.",
+      "category": "Technology",
+      "Id": 146
+    },
+    {
+      "title": "WebRTC and its Applications",
+      "description": "Discover various applications of WebRTC, from video conferencing and online sharing.Explore how WebRTC is transforming real-time communication on the web.",
+      "category": "Technology",
+      "Id": 147
+    },
+    {
+      "title": "WebRTC and its Applications",
+      "description": "Discover various applications of WebRTC, from video conferencing and online sharing.Explore how WebRTC is transforming real-time communication on the web.",
+      "category": "Technology",
+      "Id": 148
+    },
+    {
+      "title": "Life as a React Developer",
+      "description": "A blog on day to day life of a react developer.",
+      "category": "Personal Blogs",
+      "Id": 149
+    },
+    {
+      "title": "Type-c cable management",
+      "description": "Discover various applications of WebRTC, from video conferencing and online sharing.Explore how WebRTC is transforming real-time communication on the web.",
+      "category": "Technology",
+      "Id": 150
+    }
+  ]
+}
