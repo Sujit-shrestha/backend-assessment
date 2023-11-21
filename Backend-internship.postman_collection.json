@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "3f14a900-3026-41a1-8df0-894aff8e1881",
+		"name": "Backend-internship",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28044111",
+		"_collection_link": "https://blue-resonance-269833.postman.co/workspace/TEST~0d006eff-80f6-4daa-b5e8-1c5d32a82739/collection/28044111-3f14a900-3026-41a1-8df0-894aff8e1881?action=share&source=collection_link&creator=28044111"
+	},
+	"item": [
+		{
+			"name": "Root",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all blogs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/blogs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get blog by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/blogs/149",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogs",
+						"149"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adding new Blog",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Type-c cable management\",\r\n    \"description\": \"Discover various applications of WebRTC, from video conferencing and online sharing.Explore how WebRTC is transforming real-time communication on the web.\",\r\n    \"category\": \"Technology\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/blogs/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogs",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Blog",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Exploring React Hooks\",\r\n    \"description\": \"Delve into the world of React Hooks and how they revolutionize state management.\",\r\n    \"category\": \"Technology\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/blogs/update/133",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogs",
+						"update",
+						"133"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
